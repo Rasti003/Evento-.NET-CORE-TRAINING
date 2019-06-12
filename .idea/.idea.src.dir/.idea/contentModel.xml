@@ -27,7 +27,6 @@
       </e>
       <e p="Evento.Core" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Class1.cs" t="Include" />
         <e p="Domain" t="Include">
           <e p="Entity.cs" t="Include" />
           <e p="Event.cs" t="Include" />
@@ -41,6 +40,10 @@
               <e p="Evento.Core.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="IEventRepository.cs" t="Include" />
+          <e p="IUserRepository.cs" t="Include" />
         </e>
       </e>
       <e p="Evento.Infrastructure" t="IncludeRecursive">
