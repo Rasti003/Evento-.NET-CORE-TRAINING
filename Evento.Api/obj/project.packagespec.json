@@ -17,7 +17,11 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

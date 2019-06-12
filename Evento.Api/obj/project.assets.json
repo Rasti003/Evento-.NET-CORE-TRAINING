@@ -4438,6 +4438,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "Evento.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Evento.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Evento.Core.dll": {}
+        }
+      },
+      "Evento.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Evento.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Evento.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Evento.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -12061,10 +12084,21 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "Evento.Core/1.0.0": {
+      "type": "project",
+      "path": "../Evento.Core/Evento.Core.csproj",
+      "msbuildProject": "../Evento.Core/Evento.Core.csproj"
+    },
+    "Evento.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Evento.Infrastructure/Evento.Infrastructure.csproj",
+      "msbuildProject": "../Evento.Infrastructure/Evento.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Evento.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12097,7 +12131,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
