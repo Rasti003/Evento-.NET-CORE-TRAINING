@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj",
+        "projectName": "Evento.Infrastructure",
+        "projectPath": "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\Evento.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\przem\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\przem\\Desktop\\repo\\C#\\ASP.NET CORE\\evento\\src\\Evento.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\przem\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
