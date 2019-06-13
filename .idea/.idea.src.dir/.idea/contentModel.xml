@@ -52,6 +52,9 @@
           <e p="EventDto.cs" t="Include" />
         </e>
         <e p="Evento.Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="Mappers" t="Include">
+          <e p="AutoMapperConfig.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
@@ -64,6 +67,7 @@
           <e p="UserReposiotry.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
+          <e p="EventService.cs" t="Include" />
           <e p="IEventService.cs" t="Include" />
         </e>
       </e>

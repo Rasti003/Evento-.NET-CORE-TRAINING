@@ -22,4 +22,4 @@ namespace Evento.Infrastructure.Services
        
         Task DeleteAsync(Guid id);
     }
-}
+} 
