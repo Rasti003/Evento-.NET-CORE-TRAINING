@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d2a14c-4528-435e-b4c2-5552d90c17db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Evento.Infrastructure/Repositories/EventRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evento.Infrastructure/DTO/EventDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evento.Infrastructure/Repositories/UserReposiotry.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Evento.Infrastructure/Services/IEventService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.src.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.src.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.src.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.src.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evento.Infrastructure/Evento.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Evento.Infrastructure/Evento.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Evento.Infrastructure/obj/Debug/netstandard2.0/Evento.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evento.Infrastructure/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Evento.Infrastructure/Repositories/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Evento.Infrastructure/Repositories/EventRepository.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,19 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/Class1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <marker date="1560363680506" expanded="true" signature="46:86" ph="{...}" />
-                <marker date="1560363680506" expanded="true" signature="72:84" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Evento.Core/Domain/Entity.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Evento.Core/Domain/Event.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="150">
+              <caret line="10" column="7" selection-start-line="7" selection-end-line="14" selection-end-column="54" />
               <folding>
                 <marker date="1560369324884" expanded="true" signature="6:47" ph="..." />
                 <marker date="1560369324884" expanded="true" signature="77:1288" ph="{...}" />
@@ -79,12 +68,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Evento.Core/Repositories/IEventRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="10" column="6" selection-start-line="9" selection-end-line="14" selection-end-column="39" />
+            <state relative-caret-position="135">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
-                <marker date="1560369882509" expanded="true" signature="6:103" ph="..." />
-                <marker date="1560369882509" expanded="true" signature="139:457" ph="{...}" />
-                <marker date="1560369882509" expanded="true" signature="179:455" ph="{...}" />
+                <marker date="1560451481897" expanded="true" signature="6:103" ph="..." />
+                <marker date="1560451481897" expanded="true" signature="139:457" ph="{...}" />
+                <marker date="1560451481897" expanded="true" signature="179:455" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,20 +93,65 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/Repositories/EventRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="55">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
-                <marker date="1560447482349" expanded="true" signature="6:154" ph="..." />
-                <marker date="1560447482349" expanded="true" signature="200:1417" ph="{...}" />
-                <marker date="1560447482349" expanded="true" signature="253:1415" ph="{...}" />
-                <marker date="1560447482349" expanded="true" signature="722:1025" ph="{...}" />
-                <marker date="1560447482349" expanded="true" signature="831:964" ph="{...}" />
-                <marker date="1560447482349" expanded="true" signature="1074:1165" ph="{...}" />
-                <marker date="1560447482349" expanded="true" signature="1218:1287" ph="{...}" />
-                <marker date="1560447482349" expanded="true" signature="1340:1409" ph="{...}" />
+                <marker date="1560451530611" expanded="true" signature="6:154" ph="..." />
+                <marker date="1560451530611" expanded="true" signature="201:1450" ph="{...}" />
+                <marker date="1560451530611" expanded="true" signature="255:1448" ph="{...}" />
+                <marker date="1560451530611" expanded="true" signature="740:1043" ph="{...}" />
+                <marker date="1560451530611" expanded="true" signature="849:982" ph="{...}" />
+                <marker date="1560451530611" expanded="true" signature="1093:1184" ph="{...}" />
+                <marker date="1560451530611" expanded="true" signature="1237:1295" ph="{...}" />
+                <marker date="1560451530611" expanded="true" signature="1348:1442" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/Repositories/UserReposiotry.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding>
+                <marker date="1560448703891" expanded="true" signature="6:154" ph="..." />
+                <marker date="1560448703891" expanded="true" signature="200:1058" ph="{...}" />
+                <marker date="1560448703891" expanded="true" signature="251:1056" ph="{...}" />
+                <marker date="1560448703891" expanded="true" signature="713:801" ph="{...}" />
+                <marker date="1560448703891" expanded="true" signature="851:909" ph="{...}" />
+                <marker date="1560448703891" expanded="true" signature="959:1050" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/Services/IEventService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding>
+                <marker date="1560451530623" expanded="true" signature="6:136" ph="..." />
+                <marker date="1560451530623" expanded="true" signature="178:707" ph="{...}" />
+                <marker date="1560451530623" expanded="true" signature="215:705" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/DTO/EventDto.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="35" />
+              <folding>
+                <marker date="1560451195292" expanded="true" signature="6:73" ph="..." />
+                <marker date="1560451195292" expanded="true" signature="110:466" ph="{...}" />
+                <marker date="1560451195292" expanded="true" signature="138:464" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -144,6 +178,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Evento.Infrastructure/DTO/EventDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Evento.Core/Domain/Entity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Evento.Core/Repositories/IEventRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Evento.Core/Domain/Event.cs" root0="FORCE_HIGHLIGHTING" />
@@ -151,7 +186,8 @@
     <setting file="file://$PROJECT_DIR$/Evento.Core/Domain/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Evento.Core/Domain/Ticket.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Evento.Infrastructure/Repositories/EventRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Evento.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Evento.Infrastructure/Repositories/UserReposiotry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Evento.Infrastructure/Services/IEventService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -160,9 +196,12 @@
         <option value="$PROJECT_DIR$/Evento.Core/Domain/User.cs" />
         <option value="$PROJECT_DIR$/Evento.Core/Domain/Ticket.cs" />
         <option value="$PROJECT_DIR$/Evento.Core/Domain/Event.cs" />
-        <option value="$PROJECT_DIR$/Evento.Core/Repositories/IEventRepository.cs" />
         <option value="$PROJECT_DIR$/Evento.Core/Repositories/IUserRepository.cs" />
+        <option value="$PROJECT_DIR$/Evento.Infrastructure/Repositories/UserReposiotry.cs" />
+        <option value="$PROJECT_DIR$/Evento.Infrastructure/DTO/EventDto.cs" />
         <option value="$PROJECT_DIR$/Evento.Infrastructure/Repositories/EventRepository.cs" />
+        <option value="$PROJECT_DIR$/Evento.Core/Repositories/IEventRepository.cs" />
+        <option value="$PROJECT_DIR$/Evento.Infrastructure/Services/IEventService.cs" />
       </list>
     </option>
   </component>
@@ -182,12 +221,36 @@
           <expand>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Evento.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Evento.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Evento.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Evento.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Evento.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DTO" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Evento.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Evento.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +324,7 @@
       <workItem from="1560363819122" duration="798000" />
       <workItem from="1560365153953" duration="126000" />
       <workItem from="1560365298479" duration="5534000" />
-      <workItem from="1560445500933" duration="1645000" />
+      <workItem from="1560445500933" duration="5570000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1560365322332</created>
@@ -298,11 +361,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560370237687</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="EventRepository">
+      <created>1560447621889</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560447621889</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8103000" />
+    <option name="totallyTimeSpent" value="12028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,7 +426,8 @@
     <MESSAGE value="created entity, user class" />
     <MESSAGE value="add domain class" />
     <MESSAGE value="Repository IEvent IUser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repository IEvent IUser" />
+    <MESSAGE value="EventRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="EventRepository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,10 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <marker date="1560363680506" expanded="true" signature="46:86" ph="{...}" />
-            <marker date="1560363680506" expanded="true" signature="72:84" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -401,34 +468,6 @@
             <marker date="1560367027541" expanded="true" signature="76:699" ph="{...}" />
             <marker date="1560367027541" expanded="true" signature="392:412" ph="{...}" />
             <marker date="1560367027541" expanded="true" signature="500:693" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evento.Core/Domain/Event.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-          <folding>
-            <marker date="1560369324884" expanded="true" signature="6:47" ph="..." />
-            <marker date="1560369324884" expanded="true" signature="77:1288" ph="{...}" />
-            <marker date="1560369324884" expanded="true" signature="111:1286" ph="{...}" />
-            <marker date="1560369324884" expanded="true" signature="602:635" ph="{...}" />
-            <marker date="1560369324884" expanded="true" signature="737:991" ph="{...}" />
-            <marker date="1560369324884" expanded="true" signature="1050:1280" ph="{...}" />
-            <marker date="1560369324884" expanded="true" signature="1151:1270" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Evento.Core/Repositories/IEventRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="6" selection-start-line="9" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <marker date="1560369882509" expanded="true" signature="6:103" ph="..." />
-            <marker date="1560369882509" expanded="true" signature="139:457" ph="{...}" />
-            <marker date="1560369882509" expanded="true" signature="179:455" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -458,19 +497,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/Repositories/UserReposiotry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding>
+            <marker date="1560448703891" expanded="true" signature="6:154" ph="..." />
+            <marker date="1560448703891" expanded="true" signature="200:1058" ph="{...}" />
+            <marker date="1560448703891" expanded="true" signature="251:1056" ph="{...}" />
+            <marker date="1560448703891" expanded="true" signature="713:801" ph="{...}" />
+            <marker date="1560448703891" expanded="true" signature="851:909" ph="{...}" />
+            <marker date="1560448703891" expanded="true" signature="959:1050" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evento.Core/Domain/Event.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="7" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <marker date="1560369324884" expanded="true" signature="6:47" ph="..." />
+            <marker date="1560369324884" expanded="true" signature="77:1288" ph="{...}" />
+            <marker date="1560369324884" expanded="true" signature="111:1286" ph="{...}" />
+            <marker date="1560369324884" expanded="true" signature="602:635" ph="{...}" />
+            <marker date="1560369324884" expanded="true" signature="737:991" ph="{...}" />
+            <marker date="1560369324884" expanded="true" signature="1050:1280" ph="{...}" />
+            <marker date="1560369324884" expanded="true" signature="1151:1270" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/DTO/EventDto.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <marker date="1560451195292" expanded="true" signature="6:73" ph="..." />
+            <marker date="1560451195292" expanded="true" signature="110:466" ph="{...}" />
+            <marker date="1560451195292" expanded="true" signature="138:464" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evento.Core/Repositories/IEventRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <marker date="1560451481897" expanded="true" signature="6:103" ph="..." />
+            <marker date="1560451481897" expanded="true" signature="139:457" ph="{...}" />
+            <marker date="1560451481897" expanded="true" signature="179:455" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/Repositories/EventRepository.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="55">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <marker date="1560447482349" expanded="true" signature="6:154" ph="..." />
-            <marker date="1560447482349" expanded="true" signature="200:1417" ph="{...}" />
-            <marker date="1560447482349" expanded="true" signature="253:1415" ph="{...}" />
-            <marker date="1560447482349" expanded="true" signature="722:1025" ph="{...}" />
-            <marker date="1560447482349" expanded="true" signature="831:964" ph="{...}" />
-            <marker date="1560447482349" expanded="true" signature="1074:1165" ph="{...}" />
-            <marker date="1560447482349" expanded="true" signature="1218:1287" ph="{...}" />
-            <marker date="1560447482349" expanded="true" signature="1340:1409" ph="{...}" />
+            <marker date="1560451530611" expanded="true" signature="6:154" ph="..." />
+            <marker date="1560451530611" expanded="true" signature="201:1450" ph="{...}" />
+            <marker date="1560451530611" expanded="true" signature="255:1448" ph="{...}" />
+            <marker date="1560451530611" expanded="true" signature="740:1043" ph="{...}" />
+            <marker date="1560451530611" expanded="true" signature="849:982" ph="{...}" />
+            <marker date="1560451530611" expanded="true" signature="1093:1184" ph="{...}" />
+            <marker date="1560451530611" expanded="true" signature="1237:1295" ph="{...}" />
+            <marker date="1560451530611" expanded="true" signature="1348:1442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evento.Infrastructure/Services/IEventService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1560451530623" expanded="true" signature="6:136" ph="..." />
+            <marker date="1560451530623" expanded="true" signature="178:707" ph="{...}" />
+            <marker date="1560451530623" expanded="true" signature="215:705" ph="{...}" />
           </folding>
         </state>
       </provider>

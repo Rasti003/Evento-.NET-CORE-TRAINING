@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Evento.Core.Domain;
 using Evento.Core.Repositories;
 
+
 namespace Evento.Infrastructure.Repositories
 {
     public class EventRepository : IEventRepository

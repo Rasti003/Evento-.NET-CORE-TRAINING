@@ -48,7 +48,9 @@
       </e>
       <e p="Evento.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Class1.cs" t="Include" />
+        <e p="DTO" t="Include">
+          <e p="EventDto.cs" t="Include" />
+        </e>
         <e p="Evento.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -59,6 +61,10 @@
         </e>
         <e p="Repositories" t="Include">
           <e p="EventRepository.cs" t="Include" />
+          <e p="UserReposiotry.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IEventService.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
