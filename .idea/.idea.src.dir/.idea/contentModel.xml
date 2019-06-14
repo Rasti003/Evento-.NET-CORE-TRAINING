@@ -48,6 +48,11 @@
       </e>
       <e p="Evento.Infrastructure" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include">
+          <e p="Events" t="Include">
+            <e p="CreateEvent.cs" t="Include" />
+          </e>
+        </e>
         <e p="DTO" t="Include">
           <e p="EventDto.cs" t="Include" />
         </e>
