@@ -9,6 +9,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="EventsController.cs" t="Include" />
         </e>
         <e p="Evento.Api.csproj" t="IncludeRecursive" />
@@ -53,6 +54,9 @@
             <e p="CreateEvent.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
           </e>
+          <e p="Users" t="Include">
+            <e p="Register.cs" t="Include" />
+          </e>
         </e>
         <e p="DTO" t="Include">
           <e p="EventDetailsDto.cs" t="Include" />
@@ -80,6 +84,8 @@
         <e p="Services" t="Include">
           <e p="EventService.cs" t="Include" />
           <e p="IEventService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
