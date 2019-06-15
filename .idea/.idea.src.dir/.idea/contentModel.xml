@@ -55,7 +55,9 @@
           </e>
         </e>
         <e p="DTO" t="Include">
+          <e p="EventDetailsDto.cs" t="Include" />
           <e p="EventDto.cs" t="Include" />
+          <e p="TicketDto.cs" t="Include" />
         </e>
         <e p="Evento.Infrastructure.csproj" t="IncludeRecursive" />
         <e p="Extensions" t="Include">
